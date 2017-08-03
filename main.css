@@ -1,0 +1,39 @@
+h1 {
+  color: LightGray;
+}
+
+.calculatorWrapper {
+
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+
+
+}
+
+button{
+  flex-grow: 1;
+  flex-basis: 25%;
+  height: 7rem;
+
+}
+
+#plus {
+  flex-basis: 25%;
+}
+
+}
+#clear {
+  flex-grow: 1;
+  flex-basis:18%;
+}
+
+
+#display {
+  flex-grow: 3;
+  flex-basis:75%;
+  height: 7rem;
+
+
+}
