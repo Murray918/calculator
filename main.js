@@ -19,5 +19,3 @@ let btn0 = 0;
 let btnDot = 0;
 let btnEqual = 0;
 let btnplus = 0;
-
-onClick

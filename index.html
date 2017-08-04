@@ -3,31 +3,40 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
     <title>Calculator</title>
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <h1>PARTY</h1>
+
     <section class="calculatorWrapper">
+      <div class="label">
+      <h1>PARTY</h1>
+      <div class="lines">
+      <hr>
+      <hr>
+      <hr>
+      </div>
+    </div>
       <div class="buttons">
         <button type="button" name="clear" id='clear'>C</button>
         <div id="display"></div>
         <button type="button" name="seven" id='seven'>7</button>
         <button type="button" name="eight" id='eight'>8</button>
         <button type="button" name="nine" id='nine'>9</button>
-        <button type="button" name="divide" id='divide'>/</button>
+        <button type="button" name="divide" id='divide' class="green">/</button>
         <button type="button" name="four" id='four'>4</button>
         <button type="button" name="five" id='five'>5</button>
         <button type="button" name="six" id='six'>6</button>
-        <button type="button" name="multi" id='multi'>*</button>
+        <button type="button" name="multi" id='multi' class="green">*</button>
         <button type="button" name="one" id='one'>1</button>
         <button type="button" name="tow" id='two'>2</button>
         <button type="button" name="three" id='three'>3</button>
-        <button type="button" name="minus" id='minus'>-</button>
+        <button type="button" name="minus" id='minus' class="green">-</button>
         <button type="button" name="zero" id='zero'>0</button>
         <button type="button" name="dot" id='dot'>.</button>
         <button type="button" name="equa" id='equal'>=</button>
-        <button type="button" name="plus" id='plus'>+</button>
+        <button type="button" name="plus" id='plus' class="green">+</button>
       </div>
     </section>
     <script src="main.js"></script>
