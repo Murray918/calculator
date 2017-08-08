@@ -34,7 +34,7 @@ h1 {
   flex-direction: column
 }
 
-hr{
+hr {
   width: 100%;
 }
 
@@ -46,6 +46,14 @@ hr{
   padding: 20px;
   border-radius: 15px;
   justify-content: center;
+}
+
+#display {
+  font-family: Orbitron sans-serif;
+  font-size: 3em;
+  color: #414A52;
+  text-align: left;
+
 }
 
 .buttons {
