@@ -42,16 +42,30 @@ function clearFn() {
 function equalFn() {
   let equalMath = document.getElementById('display').textContent;
   document.querySelector('#display').textContent = eval(equalMath).toFixed(6);
+  changeColor()
+}
+
+function reset(){
+  delay = 0;
 }
 
 function changeColor() {
     delay++;
 
-    if (delay > 4) {
+    if (delay > 5) {
         bodyElement.style.backgroundColor = getRandomColor();
         delay = 0;
     }
     requestAnimationFrame(changeColor);
+    setTimeout(colorStop, 4000);
+    setTimeout(reset, 4010)
+
+}
+
+function colorStop(){
+  delay = ''
+  hexColor = '#' + 0 + 'B' + 2 + 'B' + 48;
+  bodyElement.style.backgroundColor = hexColor
 
 }
 
